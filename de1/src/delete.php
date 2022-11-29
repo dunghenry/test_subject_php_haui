@@ -1,5 +1,5 @@
 <?php
-include 'connectdb.php.php';
+include 'connectdb.php';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $sql = "DELETE FROM tblhousehold WHERE id=$id";
@@ -12,3 +12,4 @@ if (isset($_GET['id'])) {
         die(mysqli_error($conn));
     }
 }
+?>

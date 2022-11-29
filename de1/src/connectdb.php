@@ -1,7 +1,11 @@
 <?php
-$host = "mysql_db";
+// $host = "mysql_db";
+// $username = "root";
+// $password = "root";
+// $database_name = "electric";
+$host = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $database_name = "electric";
 $conn = new mysqli($host, $username, $password, $database_name);
 if (!$conn) {
