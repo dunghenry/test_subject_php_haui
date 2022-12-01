@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 01, 2022 at 01:19 AM
+-- Generation Time: Dec 01, 2022 at 04:36 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -40,8 +40,10 @@ CREATE TABLE `tblhousehold` (
 --
 
 INSERT INTO `tblhousehold` (`id`, `ten`, `thang`, `chisodau`, `chisocuoi`) VALUES
-(3, 'DungHenry', 1, 100, 300),
-(4, 'TranDung', 10, 100, 200);
+(5, 'TranVanDung', 10, 50, 550),
+(6, 'TranVanA', 10, 100, 1000),
+(7, 'TranThiC', 5, 100, 550),
+(8, 'DungHenry', 6, 50, 550);
 
 --
 -- Indexes for dumped tables
@@ -61,7 +63,7 @@ ALTER TABLE `tblhousehold`
 -- AUTO_INCREMENT for table `tblhousehold`
 --
 ALTER TABLE `tblhousehold`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
